@@ -29,10 +29,10 @@ public class TestGreeter {
   
 
   @Test
-  public void greetShouldIncludeGreetingPhrase() {
-    String someone = "World";
+  public void intentionally_Failed() {
+    
 
-    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+    assertTrue(false);
   }
 
     @Test
